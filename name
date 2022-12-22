@@ -1,0 +1,154 @@
+def print_pattern(n):
+   
+    for rows in range(n):
+
+      
+        for columns in range(n):
+
+          
+            if ((columns == 0 or columns == n-1) or
+              
+                (rows == n // 2)
+            ):
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+        print()
+
+
+size = int(input("Enter size: \t"))
+
+if size < 8:
+    print("Enter a size greater than 8")
+else:
+    print_pattern(size)
+
+def print_pattern(n):
+   
+    for row in range(n):
+
+        
+        for column in range(n):
+
+          
+            if ((row == 0 or row == n - 1 or row == n // 2) or
+
+                    
+                    column == 0):
+                print("*", end="")
+            else:
+                print(" ", end="")
+        print()
+
+
+size = int(input("Enter size: \t"))
+
+if size < 8:
+    print("Enter a size greater than 8")
+else:
+    print_pattern(size)
+
+def print_pattern(n):
+    for row in range(n):
+        for column in range(n):
+           
+            if ((column == 0 or
+
+                  
+                    column == n-1) or
+
+                 
+                    row + column == (n - 1) and row < n/2 or
+
+                    
+                    row == column and row < n/2
+            ):
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+        print()
+
+
+size = int(input("Enter the size: \t"))
+
+if size < 8:
+    print("Enter a value minumin of 8")
+else:
+    print_pattern(size)
+
+def print_pattern(n): 
+  
+    
+    for i in range(n): 
+  
+        
+        for j in range((n // 2) + 1): 
+  
+           
+            if ((j == 0 or j == n //2) and i != 0 or
+  
+               
+                i == 0 and j != 0 and j != n // 2 or
+  
+                
+                i == n // 2): 
+                print("*", end = "") 
+            else: 
+                print(" ", end = "") 
+          
+        print() 
+      
+
+def print_pattern(n): 
+  
+   
+    for i in range(n): 
+  
+        
+        for j in range((n // 2) + 1): 
+  
+           
+            if ((j == 0 or j == n //2) and i != 0 or
+  
+               
+                i == 0 and j != 0 and j != n // 2 or
+  
+                
+                i == n // 2): 
+                print("*", end = "") 
+            else: 
+                print(" ", end = "") 
+          
+        print() 
+      
+size = int(input("Enter the size: \t"))
+
+if size < 8:
+    print("Enter a value minumin of 8")
+else:
+    print_pattern(size)
+
+    def print_pattern(n):
+     for row in range(n):
+        for column in range(n):
+            
+            if ((column == 0 or
+
+                
+                 column == n-1) or
+
+             
+                row == column
+               ):
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+        print()
+
+
+size = int(input("Enter the size: \t"))
+
+if size < 8:
+    print("Enter a value minumin of 8")
+else:
+    print_pattern(size)
